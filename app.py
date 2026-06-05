@@ -359,3 +359,8 @@ if uploaded_file:
             use_container_width=True
         )
         st.markdown('<div class="disclaimer-box" style="margin-top:16px;">🏥 <strong>Remember:</strong> This AI explanation is for understanding only. Please discuss ALL results with your doctor before making any health decisions.</div>', unsafe_allow_html=True)
+        st.set_page_config(
+    page_title="MedReport AI",
+    page_icon="🏥",
+    layout="wide"
+)
